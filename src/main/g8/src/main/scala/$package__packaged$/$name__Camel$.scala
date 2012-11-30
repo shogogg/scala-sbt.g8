@@ -1,5 +1,6 @@
 package $package$
 
 object $name;format="Camel"$ extends App {
-  println("Hello, $name$")
+  println(message)
+  def message = "Hello, $name$"
 }
